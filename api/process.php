@@ -1,4 +1,6 @@
 <?php
+
+header('content-type: application/json');
 	session_start();
 	$email = trim($_POST["username"]);
 	$password = trim($_POST["password"]);
